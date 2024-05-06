@@ -1,0 +1,68 @@
+/* Estilos para la tabla */
+table {
+  width: 70%;
+  border-collapse: collapse;
+}
+
+/* Estilos para las celdas de encabezado */
+th {
+  background-color: #333;
+  color: rgb(185, 238, 39);
+  padding: 10px;
+}
+
+/* Estilos para las filas impares */
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+/* Estilos para las filas pares */
+tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+/* Estilos para las celdas */
+td {
+  padding: 8px;
+}
+
+/* Estilos para el botón Agregar Joya */
+#addForm button {
+  background-color: #fa195c;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilos para el botón Agregar Joya al pasar el mouse sobre él */
+#addForm button:hover {
+  background-color: #d82114;
+}
+
+/* Estilos para el botón Editar y Eliminar */
+button {
+  background-color: #ce3b31;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilos para el botón Editar y Eliminar al pasar el mouse sobre ellos */
+button:hover {
+  background-color: #aa281e;
+}
+.panel-edicion {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 250px; /* Adjust width as needed */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px; /* Adjust padding as needed */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Adjust box shadow as needed */
+}
+summary {
+  color: black;
+}
